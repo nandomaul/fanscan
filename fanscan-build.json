@@ -13,7 +13,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "b9840fc891caca79a80d4b68a881254c2fccc2b9155f1b4675946d6e01a4b37c"
+      "sha256": "3ffc00c60e73ce10d47dee1a0314dd04a1a92cf70a198d60cd56a246b1f63b4a"
     },
     {
       "path": "package-lock.json",
@@ -26,6 +26,10 @@
     {
       "path": "public/.nojekyll",
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "public/CNAME",
+      "sha256": "ccb0c2b0665913aefb8613c61964c8abfc0e45954591cd499413952735f213ef"
     },
     {
       "path": "public/art/cover-1.webp",
@@ -132,12 +136,20 @@
       "sha256": "c5cc308380d934dcacf74e70701054e918076fabd5857c0534ec827ca676abce"
     },
     {
+      "path": "public/brand/google-g.png",
+      "sha256": "d1ce9c2af0b10a7333abc99bc706f9a6a199e5b65bf3e3009624f076b8638e6a"
+    },
+    {
       "path": "public/favicon.svg",
       "sha256": "93885d5cf027c07a23adedf656188891e3e7b848b6fcc646f7527431bb710542"
     },
     {
       "path": "public/fonts/barlow-condensed-900-italic.woff2",
       "sha256": "b58672f4b405724353d140e19cfead74fefc9004271e846d4884cd9b76f36dbf"
+    },
+    {
+      "path": "public/share/fanscan-share-r064.jpg",
+      "sha256": "8ec250604d2b5a578ebaf612535f277213f2b3234ec6dcd0b6bb8a8d72a8295e"
     },
     {
       "path": "scripts/configure-supabase.mjs",
@@ -289,7 +301,7 @@
     },
     {
       "path": "src/features/profile/ProfilePage.tsx",
-      "sha256": "5f97862da8f707255724e6416052eaa7eabf0ba6ea65fbf18758ba12e64cac57"
+      "sha256": "3fb39d995122d7eeae9722b98db09cce9bdf4febb87c9fcee11c513e9c3cb37c"
     },
     {
       "path": "src/features/profile/identity.ts",
@@ -297,7 +309,7 @@
     },
     {
       "path": "src/features/profile/profile.css",
-      "sha256": "5bd2d6c68851d43ac60a24e64d57101b3af58de88df8501a5f51297a81d8146f"
+      "sha256": "a976845b5b6636846df6eaf46810b9c67ffbaad2cacf9647a303842aa48af972"
     },
     {
       "path": "src/features/profile/profile.test.ts",
@@ -386,6 +398,10 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
+      "path": "CNAME",
+      "sha256": "ccb0c2b0665913aefb8613c61964c8abfc0e45954591cd499413952735f213ef"
+    },
+    {
       "path": "art/cover-1.webp",
       "sha256": "f996e11d3dc00a091156d62f5e172adf5dd416fe6a408c8c95b7bd060d44106e"
     },
@@ -438,12 +454,12 @@
       "sha256": "bf1dfeea217a135d98b763151c3e248f485f45e07949af9a156ac79ad44f029f"
     },
     {
-      "path": "assets/index-CLA2DQDP.css",
-      "sha256": "9c8390ce0dd48999ded29c73215f7f305e2acfa9a6b5d9828bb3ff01e9eddf50"
+      "path": "assets/index-1cOYDs9_.js",
+      "sha256": "1746153a5dd524f3401517a8777cbeef8ff2f75b7efc21103aab2644b90247df"
     },
     {
-      "path": "assets/index-DZH1_uYk.js",
-      "sha256": "435dcda3c550df00f3ae148125f3e4c93587149451e2a1a24647c403ce51a8b3"
+      "path": "assets/index-BGWz2_jc.css",
+      "sha256": "6b802ae3b1048e5ddcae2d4cdbfb7448e2a8253a6c8b49b9340965b62d44c3df"
     },
     {
       "path": "avatars/female-1.webp",
@@ -498,6 +514,10 @@
       "sha256": "c5cc308380d934dcacf74e70701054e918076fabd5857c0534ec827ca676abce"
     },
     {
+      "path": "brand/google-g.png",
+      "sha256": "d1ce9c2af0b10a7333abc99bc706f9a6a199e5b65bf3e3009624f076b8638e6a"
+    },
+    {
       "path": "favicon.svg",
       "sha256": "93885d5cf027c07a23adedf656188891e3e7b848b6fcc646f7527431bb710542"
     },
@@ -507,7 +527,11 @@
     },
     {
       "path": "index.html",
-      "sha256": "5c0819020da9e7a1a8600832a9cd9b20625fa0d8774f7dfec4c9afe7b0e9156b"
+      "sha256": "c77c509071e6dd8d01d3efde6b9a28ffad853eb9df52c8473bd1edb13501f39d"
+    },
+    {
+      "path": "share/fanscan-share-r064.jpg",
+      "sha256": "8ec250604d2b5a578ebaf612535f277213f2b3234ec6dcd0b6bb8a8d72a8295e"
     }
   ]
 }
