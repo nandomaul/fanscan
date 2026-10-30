@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "revision": "0.4.0",
-  "base": "/fanscan/",
+  "base": "/",
   "inputs": [
     {
       "path": ".env.local",
@@ -13,7 +13,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "3ffc00c60e73ce10d47dee1a0314dd04a1a92cf70a198d60cd56a246b1f63b4a"
+      "sha256": "797eeebdc805265f64d89506fef265243c93375b9d4bed7a3d1a8b11b6312790"
     },
     {
       "path": "package-lock.json",
@@ -152,6 +152,10 @@
       "sha256": "8ec250604d2b5a578ebaf612535f277213f2b3234ec6dcd0b6bb8a8d72a8295e"
     },
     {
+      "path": "public/share/fanscan-share-r066.jpg",
+      "sha256": "a3fb447034ffe57dd87048ac05b9a53e54aa9353e70ab37b3e2689c7d454c5e4"
+    },
+    {
       "path": "scripts/configure-supabase.mjs",
       "sha256": "7495c0e3adf70727108c12cce8cd771268c8988ab2236e7c5e12e225853de532"
     },
@@ -161,11 +165,11 @@
     },
     {
       "path": "scripts/deploy.mjs",
-      "sha256": "aa0d0d14e8874ef914089b99283f5483e02a2b96e6fc8a129802e3d2c01e7047"
+      "sha256": "a9c92dcf26a8a2ce8a32af25c98538f76fd8ce36e8259843e6a7459f5aa6f5b9"
     },
     {
       "path": "scripts/deploy.test.mjs",
-      "sha256": "88552db74363ab0ec44698a18f9ee9e01ee3a7cafd92fc2b8beebac3da965079"
+      "sha256": "7fa5a9694ce9d4c60974531145a372f338c490c3feba35878ecbc3e8ef57e4d1"
     },
     {
       "path": "scripts/dev.cjs",
@@ -389,7 +393,7 @@
     },
     {
       "path": "vite.config.ts",
-      "sha256": "35663d9c50a7a6ea8d5940249592e51f4d01333d250939bd66a347a3f2112f58"
+      "sha256": "80a0e45e98c71323cd8cba5f01913d14b8e0f01ddcb9f0ffc237ed80d04fffef"
     }
   ],
   "outputs": [
@@ -454,12 +458,12 @@
       "sha256": "bf1dfeea217a135d98b763151c3e248f485f45e07949af9a156ac79ad44f029f"
     },
     {
-      "path": "assets/index-1cOYDs9_.js",
-      "sha256": "1746153a5dd524f3401517a8777cbeef8ff2f75b7efc21103aab2644b90247df"
+      "path": "assets/index-C0ISsVfE.css",
+      "sha256": "6503187e493f0ea0ab4d53ff4ae5b28e83cc0b31ad415818ab6d79f811743c2f"
     },
     {
-      "path": "assets/index-BGWz2_jc.css",
-      "sha256": "6b802ae3b1048e5ddcae2d4cdbfb7448e2a8253a6c8b49b9340965b62d44c3df"
+      "path": "assets/index-fKUjHZVV.js",
+      "sha256": "069207d36f0ab44c37012826f9d8bd3fad6d8cc90075fcf5168fca590d0cdf78"
     },
     {
       "path": "avatars/female-1.webp",
@@ -527,11 +531,15 @@
     },
     {
       "path": "index.html",
-      "sha256": "c77c509071e6dd8d01d3efde6b9a28ffad853eb9df52c8473bd1edb13501f39d"
+      "sha256": "f7421c5c3bcea47f8e5612cc7759a57d82218b418ec3cc9c1b5a31601a20efb9"
     },
     {
       "path": "share/fanscan-share-r064.jpg",
       "sha256": "8ec250604d2b5a578ebaf612535f277213f2b3234ec6dcd0b6bb8a8d72a8295e"
+    },
+    {
+      "path": "share/fanscan-share-r066.jpg",
+      "sha256": "a3fb447034ffe57dd87048ac05b9a53e54aa9353e70ab37b3e2689c7d454c5e4"
     }
   ]
 }
