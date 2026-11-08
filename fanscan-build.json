@@ -9,7 +9,7 @@
     },
     {
       "path": "assets/images.config.json",
-      "sha256": "f0e94e02c07123d0b5f510301f19f75d6bc8842247241c38034d6514bf93f7cd"
+      "sha256": "1882dd7551613d9a8cfe2d393bd30ff2e44496a90974760b62b3ad63bba9697f"
     },
     {
       "path": "index.html",
@@ -84,6 +84,10 @@
       "sha256": "bf1dfeea217a135d98b763151c3e248f485f45e07949af9a156ac79ad44f029f"
     },
     {
+      "path": "public/avatars/anonymous.webp",
+      "sha256": "346d8cefdef9823fb6970d33e1570237e14b9188793b24c15b908115f81acfda"
+    },
+    {
       "path": "public/avatars/female-1.webp",
       "sha256": "80b0a0be90d9cd3767b197856413e1db1ffeb7539395074bde9bce6c2b7327e1"
     },
@@ -140,6 +144,10 @@
       "sha256": "d1ce9c2af0b10a7333abc99bc706f9a6a199e5b65bf3e3009624f076b8638e6a"
     },
     {
+      "path": "public/fanscan-image-cache.js",
+      "sha256": "262e84c7c342d7fddf9a4241e09179c027850c68bcf390112035daf48d31601b"
+    },
+    {
       "path": "public/favicon.svg",
       "sha256": "93885d5cf027c07a23adedf656188891e3e7b848b6fcc646f7527431bb710542"
     },
@@ -180,6 +188,10 @@
       "sha256": "d31bcf7249ec6d1e72031f1377f55065be64a874fa78e188686bbc3d90bf1809"
     },
     {
+      "path": "scripts/image-cache.test.mjs",
+      "sha256": "50cc9a148d02482fbc23c871ec8585891ce7755798415770059e503a5203242b"
+    },
+    {
       "path": "scripts/install-macos.cjs",
       "sha256": "9fa380dac25d8d3f6c9433dbaa6808b9ddae61c5f001fd68c91a7b0db9f2c9b3"
     },
@@ -201,11 +213,11 @@
     },
     {
       "path": "src/app/App.test.tsx",
-      "sha256": "a16d64b499c4a6c28d7a4333d9e85b544d7ad04ea62f50ddf3845548cae86d96"
+      "sha256": "74872d7a179cc67c7ffd0aa018d75a704bad0c636e0e7d0b3dcd09666992ebb0"
     },
     {
       "path": "src/app/App.tsx",
-      "sha256": "1bae78aa0f7bdbcba0994ffdd20a140401a1409db5e79900e64a24d331ee1d5d"
+      "sha256": "b384bc6c23cc0c82e644a860bf93f6fa8a247cc97f7a917ddf82005010416e81"
     },
     {
       "path": "src/app/connection.css",
@@ -245,7 +257,7 @@
     },
     {
       "path": "src/data/generated-images.json",
-      "sha256": "3e602ee4e5d98e626f94e5d0542c3e86198c748288713542a19d2dcdb7149059"
+      "sha256": "bb3850f2cf043a668f63b825d7b480600d394d997384ebd1fcfba8f434152d30"
     },
     {
       "path": "src/features/admin/AdminPage.tsx",
@@ -277,19 +289,27 @@
     },
     {
       "path": "src/features/auth/AuthProvider.tsx",
-      "sha256": "4c70b6cb1f9573f6b668c90ef58b12a9f718416e1e4b257e371f1a229a99e253"
+      "sha256": "442fdc8b098f9aff11208e8c5a238c2e8c1b334b6fa10bc70eb739a1053554a6"
+    },
+    {
+      "path": "src/features/auth/UsernameOnboarding.tsx",
+      "sha256": "66b7a304b3d655fda36cdfae0489e54e697c51d8084d69cb0df9a16682508d49"
     },
     {
       "path": "src/features/auth/auth-context.ts",
-      "sha256": "84d80cf4f32a1862a029a56f85c022890c63b0d3d2348890468bff5a5805728f"
+      "sha256": "a40d832747e86f74863c36e8167fdc8d90513b00dd913662f52e702ad0b375d8"
     },
     {
       "path": "src/features/auth/auth-model.test.ts",
-      "sha256": "c501faafcd344040cb6a41b07c559b6298499f84a6f7d6c3ca77ba24eef896d2"
+      "sha256": "0a738d8852dc7df016f057e3bb5030af303af475b96bf6e7a58c6e30d68da81b"
     },
     {
       "path": "src/features/auth/auth-model.ts",
-      "sha256": "56f4bee5d9098cdaa09ef2f98d40db6ffd684f36d0fde4de846e4016fab344d9"
+      "sha256": "37fea663f3e0579dde61cecee8ef44e0f635437d38399ed07642e10fdc804acf"
+    },
+    {
+      "path": "src/features/auth/username-onboarding.css",
+      "sha256": "b95ed3a5f81f889c72384db7ff50762f7df0a16cffd23bb4311135258d8fa728"
     },
     {
       "path": "src/features/banner/BannerEditor.tsx",
@@ -329,7 +349,7 @@
     },
     {
       "path": "src/features/chat/ChapterChat.tsx",
-      "sha256": "25f007ec21178c25528fb7d7a9d732bb014b3b2978de960028e0e34b99aa5f0c"
+      "sha256": "9eeb2389e1fab7fc1f8c4921eaf489d22bd25edf63826234aea937356ed6cd33"
     },
     {
       "path": "src/features/chat/CloudDiscussion.tsx",
@@ -341,7 +361,7 @@
     },
     {
       "path": "src/features/chat/chat.test.ts",
-      "sha256": "ba097cad179238f33b115c89620ea00b2822d5ab7038cbc33ea6f8c9009023dc"
+      "sha256": "43d77fd3c1bca2ad3e17406ce250a5eb96e39a3720c74acc15d20fb085a7d24a"
     },
     {
       "path": "src/features/chat/chat.ts",
@@ -393,11 +413,11 @@
     },
     {
       "path": "src/features/profile/ProfilePage.tsx",
-      "sha256": "f02df5d4090a4234248a94d6e58b4120aa1d877398ec354ed4336d64204663ef"
+      "sha256": "aaae6d5054316415a2f82a247e07409b4bf1d47dd65859089fc796a7ac75be16"
     },
     {
       "path": "src/features/profile/identity.ts",
-      "sha256": "ae37583c33cdef6e6c3580126fd9e28af3da826459018e1df447538954d3be09"
+      "sha256": "a79ba71271621cb40b092e6e5d6d66b4dd3a4f825e73c9fc344301df65b7a970"
     },
     {
       "path": "src/features/profile/profile-photo.ts",
@@ -405,15 +425,15 @@
     },
     {
       "path": "src/features/profile/profile.css",
-      "sha256": "59d018b6be52dca83f57a76b8e1cda10906d820d02d8024f611722aab5148f1a"
+      "sha256": "d4a75e1e11ef2a3410329899161dc5f2ee35fe6ec3f0674aea96dedd6031be08"
     },
     {
       "path": "src/features/profile/profile.test.ts",
-      "sha256": "4c24dd6d8adb0ac8ff9a0738c802938d7c1511edca332865038dca69fad3f404"
+      "sha256": "6a82590b7af0dc5e103affe6b37c1528e1679ef011b7313e5fbb39ffe7165e58"
     },
     {
       "path": "src/features/profile/profile.ts",
-      "sha256": "e5f763a5f7896708d03824a7b9554c1ed1393a20502c82dc23b54ce07762f147"
+      "sha256": "4ee69a5d0775233561c3d9f0323f772edc0d04b59db2d7fcea63c7e8b3b3a60c"
     },
     {
       "path": "src/features/progress/MyProgress.tsx",
@@ -441,7 +461,7 @@
     },
     {
       "path": "src/features/reader/Reader.tsx",
-      "sha256": "b93b01f542cbf0af789004473dd7f2f9a45e9c6658dc3f51250c6973087b5ea8"
+      "sha256": "61e60f2335cfd5b17f2d945134670368e4d1cfb2989b798581284e7097c93039"
     },
     {
       "path": "src/features/reader/chrome.test.ts",
@@ -453,11 +473,11 @@
     },
     {
       "path": "src/features/reader/loader.test.ts",
-      "sha256": "89d57e2f94b18b238b700a9b495a70db558ca12d085dc550aa6410d25c3e0fbe"
+      "sha256": "9f1f6a0be412b2f0311c74dde6720f0c683998c36418b03bbd9cf9918c1f2a7a"
     },
     {
       "path": "src/features/reader/loader.ts",
-      "sha256": "b1a251730557a259fb88acbf5d19c7d93cc025e332a487200a6ef5eab1a97cd4"
+      "sha256": "12feb0d223595e7a449cdd7eda14766c35443f88f31583aebf9dce8371f08ac5"
     },
     {
       "path": "src/features/reader/reader.css",
@@ -492,6 +512,10 @@
       "sha256": "437978217c7922b3186a010094e4bca94f9c308245cbd7a418454b82753baa61"
     },
     {
+      "path": "src/lib/image-cache.ts",
+      "sha256": "f9b44fd782ce87354312579d3afeb5ae6b89d3aaf36e56101472ea36ef86ea72"
+    },
+    {
       "path": "src/lib/image-webp.ts",
       "sha256": "fb049c12a87d5dc723f22bb37c544638f8edd414749d6947fe498be57dadd517"
     },
@@ -521,7 +545,7 @@
     },
     {
       "path": "src/main.tsx",
-      "sha256": "13a2ece8c9b918038eeb4798320914ec1bfd5f0c90a770090c4adfd6d1ff139b"
+      "sha256": "acc12ff570036eece227eb920dc53237c920f7bf3d878a7f9308f04252eff67e"
     },
     {
       "path": "tsconfig.json",
@@ -594,12 +618,16 @@
       "sha256": "bf1dfeea217a135d98b763151c3e248f485f45e07949af9a156ac79ad44f029f"
     },
     {
-      "path": "assets/index-CQBe54NM.js",
-      "sha256": "d9d6866798744de0d2f05a02be07916d8e0eae4754a1d9ed53bf603591f4b20a"
+      "path": "assets/index-CPs0Mj6z.css",
+      "sha256": "0bf3af713b842ba5e32b9742dd5e91c1fd629c92f2dd5c0f5833be94476bc53f"
     },
     {
-      "path": "assets/index-OOAPJuL1.css",
-      "sha256": "dcc9a9beb86008c7961b105839895c582ca6510876ad97707f08084e9abf74a8"
+      "path": "assets/index-D-CesYYk.js",
+      "sha256": "b2af4609428c88a3a5699e0d3293b45f1ae093bd59e90f4c562b0d1d34ef515e"
+    },
+    {
+      "path": "avatars/anonymous.webp",
+      "sha256": "346d8cefdef9823fb6970d33e1570237e14b9188793b24c15b908115f81acfda"
     },
     {
       "path": "avatars/female-1.webp",
@@ -658,6 +686,10 @@
       "sha256": "d1ce9c2af0b10a7333abc99bc706f9a6a199e5b65bf3e3009624f076b8638e6a"
     },
     {
+      "path": "fanscan-image-cache.js",
+      "sha256": "262e84c7c342d7fddf9a4241e09179c027850c68bcf390112035daf48d31601b"
+    },
+    {
       "path": "favicon.svg",
       "sha256": "93885d5cf027c07a23adedf656188891e3e7b848b6fcc646f7527431bb710542"
     },
@@ -667,7 +699,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "fad060cfcabca0b877067a4e5559610eb3d5d12af11d94836a0af8b22c819e76"
+      "sha256": "888c3cab6d600e377dd7ea8896df19979cf5707657032d74fcdb65ae6ceab07c"
     },
     {
       "path": "share/fanscan-share-r064.jpg",
