@@ -213,11 +213,11 @@
     },
     {
       "path": "src/app/App.test.tsx",
-      "sha256": "74872d7a179cc67c7ffd0aa018d75a704bad0c636e0e7d0b3dcd09666992ebb0"
+      "sha256": "0442c31616e9e17824efbef00aef3550788e491895e745ae4a5e37c31973443f"
     },
     {
       "path": "src/app/App.tsx",
-      "sha256": "b384bc6c23cc0c82e644a860bf93f6fa8a247cc97f7a917ddf82005010416e81"
+      "sha256": "b186502e6a197a6f478963428123640c9d9f5f0f18fa8b89b6fffe79325dd49b"
     },
     {
       "path": "src/app/connection.css",
@@ -225,7 +225,7 @@
     },
     {
       "path": "src/app/styles.css",
-      "sha256": "c5c49efc3940a15be187da6dbb8f8947f279b8626940771ee37ebd0818ab83b4"
+      "sha256": "fafc33177052fc1fe1a7de24b95841aec89fc4355b04ca21cd95395f15f34ac4"
     },
     {
       "path": "src/components/Brand.tsx",
@@ -237,7 +237,7 @@
     },
     {
       "path": "src/components/Icon.tsx",
-      "sha256": "24097b38b1904fce929fa7bc522d58998fb7466dad379f28fa5f97a6d9635f0a"
+      "sha256": "6e67d891f771c5e19f20a1a84a42d631fefec25233b23f5894f61daa73fa1c35"
     },
     {
       "path": "src/components/ShareLink.tsx",
@@ -258,6 +258,22 @@
     {
       "path": "src/data/generated-images.json",
       "sha256": "bb3850f2cf043a668f63b825d7b480600d394d997384ebd1fcfba8f434152d30"
+    },
+    {
+      "path": "src/features/activity/CommentHistory.tsx",
+      "sha256": "5dfeb0f30545d6d2f273f57bcb8840bbe989220be8b21ae27fb95c312324bd88"
+    },
+    {
+      "path": "src/features/activity/DailyPoints.tsx",
+      "sha256": "a788e9ff34b822e47aef892f179b49f287e217fd4d8327712eea122bc8184b13"
+    },
+    {
+      "path": "src/features/activity/activity-api.ts",
+      "sha256": "b73be192721d3a32b45b3a4daa8d536cf29f15ebe0a7574ef9eacdfad5367a15"
+    },
+    {
+      "path": "src/features/activity/activity.css",
+      "sha256": "ac9a9eafeba3d5f3b88259f599c62f27875dd3352bb0f1cfd9bb5e39471de692"
     },
     {
       "path": "src/features/admin/AdminPage.tsx",
@@ -333,7 +349,7 @@
     },
     {
       "path": "src/features/catalog/Catalog.tsx",
-      "sha256": "1a1aac3fad5daaf15a005aa8d45c25c56f1db4a5d0a530bcd9fdf4793f8480fd"
+      "sha256": "db36dfea9a4dc699d03c03ff63a53be669d0c8fda70a320b253053e0ba7ae6e5"
     },
     {
       "path": "src/features/catalog/cloudCatalog.test.ts",
@@ -349,11 +365,11 @@
     },
     {
       "path": "src/features/chat/ChapterChat.tsx",
-      "sha256": "9eeb2389e1fab7fc1f8c4921eaf489d22bd25edf63826234aea937356ed6cd33"
+      "sha256": "87d8fc49423c050587780a4624ce89e2493e10d43462fc748d02ee6b111290d6"
     },
     {
       "path": "src/features/chat/CloudDiscussion.tsx",
-      "sha256": "884c0960515daa897b4ad7f918f8c8deee0531388f4337f0dc348824cd89bfa5"
+      "sha256": "aeddd5eb83cfc75d115d7e2ad6034c3fc71dd64ee50de571acb0cfc24c5ad49e"
     },
     {
       "path": "src/features/chat/chat.css",
@@ -373,7 +389,7 @@
     },
     {
       "path": "src/features/chat/cloudChat.ts",
-      "sha256": "2db26c542b64e753e07055303f66767bcc847081790f28dcad91a1aaf14a818e"
+      "sha256": "67bafd91f1b16e61112065e9f63a14688560d0dac2ead127a87c0152941a4a7c"
     },
     {
       "path": "src/features/chat/discussion-media.ts",
@@ -381,7 +397,7 @@
     },
     {
       "path": "src/features/chat/discussion.css",
-      "sha256": "cf6ba3f20dcedfa985bd660c15b470bc0c7fc437ffd629d8aa95fa41fd14d2b8"
+      "sha256": "c9e1fcca99fe913f09ab2d7013c6b47fd09f5221abaa0f7a82f43d9e898b7e7f"
     },
     {
       "path": "src/features/chat/reactions.test.ts",
@@ -412,8 +428,20 @@
       "sha256": "8f1e8d066a5019c730ff0cc49732f6a2b47bc905ff764ec4b95cb80ecc731272"
     },
     {
+      "path": "src/features/notifications/Notifications.tsx",
+      "sha256": "f0c531f6d5ada6be45bc44885aa490e4700604a83c5709e7ed7504d852cb10e8"
+    },
+    {
+      "path": "src/features/notifications/discussion-activity.ts",
+      "sha256": "2a41cf696cc1a83b76306baa270483be03eb6aa1cf69f4e06013fd564a8a9fd0"
+    },
+    {
+      "path": "src/features/notifications/notifications.css",
+      "sha256": "02b4a5d4a3d99bb01169106424939217e6927d5d305a6005c18a60c263df5733"
+    },
+    {
       "path": "src/features/profile/ProfilePage.tsx",
-      "sha256": "aaae6d5054316415a2f82a247e07409b4bf1d47dd65859089fc796a7ac75be16"
+      "sha256": "4515e7ec4b8e3beb599ddf736b94c7cf220c90653305c5897708fea37e670295"
     },
     {
       "path": "src/features/profile/identity.ts",
@@ -461,7 +489,7 @@
     },
     {
       "path": "src/features/reader/Reader.tsx",
-      "sha256": "61e60f2335cfd5b17f2d945134670368e4d1cfb2989b798581284e7097c93039"
+      "sha256": "a680abc7110f3ca9d648391881bc0c703caa8d221532ceb065591fbe0cb59375"
     },
     {
       "path": "src/features/reader/chrome.test.ts",
@@ -494,6 +522,18 @@
     {
       "path": "src/features/reader/useReaderChrome.ts",
       "sha256": "ef70c926636020e42be02cc84f6f86dcba2c7474866b7edc8a2036a77ed40b51"
+    },
+    {
+      "path": "src/features/releases/ReleaseFeed.tsx",
+      "sha256": "6d939df51e5a69f950ed33341a030ba20f37607d5cd5789fa96b2f3ce7a3696c"
+    },
+    {
+      "path": "src/features/releases/releases.css",
+      "sha256": "7b8ac3e0a1756accaa06e333e0842769995bcba41cc56b6b758cd7c40f1471bb"
+    },
+    {
+      "path": "src/features/releases/releases.ts",
+      "sha256": "2ccc4188c7e6c1bb3dd96630554efdd922cee2e0188a2abcc6e375c2a5ca34f4"
     },
     {
       "path": "src/lib/assets.ts",
@@ -618,12 +658,12 @@
       "sha256": "bf1dfeea217a135d98b763151c3e248f485f45e07949af9a156ac79ad44f029f"
     },
     {
-      "path": "assets/index-CPs0Mj6z.css",
-      "sha256": "0bf3af713b842ba5e32b9742dd5e91c1fd629c92f2dd5c0f5833be94476bc53f"
+      "path": "assets/index-B_1MHQtG.css",
+      "sha256": "68ae72ad8927693efc662299c3e0a961233c4b10aac204b9c3e05675da2209f7"
     },
     {
-      "path": "assets/index-D-CesYYk.js",
-      "sha256": "b2af4609428c88a3a5699e0d3293b45f1ae093bd59e90f4c562b0d1d34ef515e"
+      "path": "assets/index-C7zYPNmR.js",
+      "sha256": "7598285ac271b20d5d0e2c9d4d17fb35f23849388ed0ba50bf86a708fe63c4fd"
     },
     {
       "path": "avatars/anonymous.webp",
@@ -699,7 +739,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "888c3cab6d600e377dd7ea8896df19979cf5707657032d74fcdb65ae6ceab07c"
+      "sha256": "a3603d201057337e14c5f63466e443f952da39910282afba6167edbdfb1ef5f2"
     },
     {
       "path": "share/fanscan-share-r064.jpg",
